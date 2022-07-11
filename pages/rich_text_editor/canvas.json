@@ -275,23 +275,7 @@
             },
             {
               "widgetName": "Checkbox5",
-              "dynamicPropertyPathList": [
-                {
-                  "key": "defaultCheckedState"
-                },
-                {
-                  "key": "isRequired"
-                },
-                {
-                  "key": "isVisible"
-                },
-                {
-                  "key": "isDisabled"
-                },
-                {
-                  "key": "animateLoading"
-                }
-              ],
+              "dynamicPropertyPathList": [],
               "displayName": "Checkbox",
               "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
               "searchTags": [
@@ -303,46 +287,30 @@
               "type": "CHECKBOX_WIDGET",
               "alignWidget": "LEFT",
               "hideCard": false,
-              "animateLoading": "{{Checkbox5.isChecked}}",
+              "animateLoading": true,
               "parentColumnSpace": 12.5625,
               "dynamicTriggerPathList": [],
               "leftColumn": 16,
-              "dynamicBindingPathList": [
-                {
-                  "key": "defaultCheckedState"
-                },
-                {
-                  "key": "isRequired"
-                },
-                {
-                  "key": "isVisible"
-                },
-                {
-                  "key": "isDisabled"
-                },
-                {
-                  "key": "animateLoading"
-                }
-              ],
+              "dynamicBindingPathList": [],
               "labelPosition": "Right",
               "labelStyle": "BOLD,ITALIC",
               "labelTextColor": "#dc2626",
-              "isDisabled": "{{Checkbox4.isChecked}}",
+              "isDisabled": false,
               "key": "f1zkhea51a",
               "labelTextSize": "1rem",
-              "isRequired": "{{Checkbox2.isChecked}}",
+              "isRequired": true,
               "isDeprecated": false,
               "rightColumn": 23,
               "widgetId": "5jcn7zzk8v",
               "accentColor": "#ca8a04",
-              "isVisible": "{{Checkbox3.isChecked}}",
+              "isVisible": true,
               "label": "Label",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "0px",
-              "defaultCheckedState": "{{Checkbox1.isChecked}}"
+              "defaultCheckedState": true
             },
             {
               "boxShadow": "none",

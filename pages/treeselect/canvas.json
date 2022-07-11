@@ -201,7 +201,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "onOptionChange": "{{navigateTo('Page1', {},'NEW_WINDOW')}}",
+              "onOptionChange": "{{navigateTo('Audio', {},'NEW_WINDOW')}}",
               "allowClear": false
             },
             {
