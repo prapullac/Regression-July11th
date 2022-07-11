@@ -3,6 +3,22 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Mongo",
+      "isDefault": false
+    },
+    {
+      "id": "API",
+      "isDefault": false
+    },
+    {
+      "id": "Airtable",
+      "isDefault": false
+    },
+    {
+      "id": "Movies",
+      "isDefault": false
     }
   ],
   "viewMode": false,
