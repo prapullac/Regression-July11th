@@ -5,7 +5,11 @@
       "isDefault": true
     },
     {
-      "id": "Page1",
+      "id": "Audio",
+      "isDefault": false
+    },
+    {
+      "id": "Page2",
       "isDefault": false
     }
   ],
@@ -15,10 +19,10 @@
   "color": "#F1DEFF",
   "icon": "flag",
   "unpublishedAppLayout": {
-    "type": "MOBILE"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "MOBILE"
+    "type": "FLUID"
   },
   "evaluationVersion": 2,
   "applicationVersion": 2,
