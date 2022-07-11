@@ -31,6 +31,10 @@
     {
       "id": "rich_text_editor",
       "isDefault": false
+    },
+    {
+      "id": "Statbox",
+      "isDefault": false
     }
   ],
   "viewMode": false,
