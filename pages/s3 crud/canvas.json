@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "s3 crud",
+    "slug": "s3-crud",
     "layouts": [
       {
         "viewMode": false,
@@ -1408,7 +1408,7 @@
                           "key": "fontFamily"
                         }
                       ],
-                      "text": "assets_test_appsmith_com Bucket",
+                      "text": "amplify_appsmith_staging_125703_deployment Bucket",
                       "labelTextSize": "0.875rem",
                       "rightColumn": 63,
                       "backgroundColor": "",
@@ -2842,7 +2842,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_ListFiles",
+              "id": "s3 crud_ListFiles",
               "name": "ListFiles",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2855,15 +2855,16 @@
           ]
         ],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "s3 crud",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "62cbb5b56c3de717a7f60d67_62cc1297efd519310e28adc2"
+  "gitSyncId": "62cbb5b56c3de717a7f60d67_62cc0daf37f4f546dad9a840"
 }

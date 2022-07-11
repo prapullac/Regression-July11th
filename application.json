@@ -1,8 +1,36 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "sql",
       "isDefault": true
+    },
+    {
+      "id": "postgresql test",
+      "isDefault": false
+    },
+    {
+      "id": "SMTP",
+      "isDefault": false
+    },
+    {
+      "id": "sql crud",
+      "isDefault": false
+    },
+    {
+      "id": "postgres crud",
+      "isDefault": false
+    },
+    {
+      "id": "s3",
+      "isDefault": false
+    },
+    {
+      "id": "s3 crud",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
