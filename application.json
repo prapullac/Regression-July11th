@@ -3,6 +3,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Start here",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -10,6 +14,12 @@
   "unreadCommentThreads": 0,
   "color": "#F1DEFF",
   "icon": "flag",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
