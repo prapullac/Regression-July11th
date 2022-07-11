@@ -65,7 +65,7 @@
               "rightColumn": 29,
               "widgetId": "cswlvjl80t",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "isVisible": false,
+              "isVisible": true,
               "version": 1,
               "expandAll": false,
               "parentId": "0",
