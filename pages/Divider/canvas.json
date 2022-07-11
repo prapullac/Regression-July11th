@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page2",
-    "slug": "page2",
+    "name": "Divider",
+    "slug": "divider",
     "layouts": [
       {
         "viewMode": false,
@@ -27,9 +27,75 @@
           "children": [
             {
               "boxShadow": "none",
+              "widgetName": "Input1Copy",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+              "searchTags": [
+                "form",
+                "text input",
+                "number",
+                "textarea"
+              ],
+              "topRow": 34,
+              "bottomRow": 38,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 38,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "up814yo0zx",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 58,
+              "widgetId": "ti0ahxurhv",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "iconAlign": "left",
+              "defaultText": ""
+            },
+            {
+              "boxShadow": "none",
               "widgetName": "Divider1",
               "thickness": "20",
-              "dynamicPropertyPathList": [],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                },
+                {
+                  "key": "animateLoading"
+                },
+                {
+                  "key": "strokeStyle"
+                },
+                {
+                  "key": "thickness"
+                }
+              ],
               "displayName": "Divider",
               "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
               "searchTags": [
@@ -41,7 +107,7 @@
               "type": "DIVIDER_WIDGET",
               "capType": "nc",
               "hideCard": false,
-              "animateLoading": true,
+              "animateLoading": "{{Input1Copy.text}}",
               "parentColumnSpace": 12.5625,
               "dynamicTriggerPathList": [],
               "leftColumn": 8,
@@ -51,18 +117,24 @@
                 },
                 {
                   "key": "accentColor"
+                },
+                {
+                  "key": "isVisible"
+                },
+                {
+                  "key": "animateLoading"
                 }
               ],
               "key": "4ce6xb1cob",
               "dividerColor": "#22c55e",
               "orientation": "vertical",
-              "strokeStyle": "solid",
+              "strokeStyle": "dashed",
               "isDeprecated": false,
               "rightColumn": 19,
               "widgetId": "ovi1zfyjqp",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "capSide": 0,
-              "isVisible": false,
+              "capSide": "0",
+              "isVisible": "{{Input1.text}}",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
@@ -245,6 +317,7 @@
               "boxShadow": "none",
               "widgetName": "Divider6",
               "thickness": "15",
+              "dynamicPropertyPathList": [],
               "displayName": "Divider",
               "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
               "searchTags": [
@@ -283,19 +356,73 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Input1",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+              "searchTags": [
+                "form",
+                "text input",
+                "number",
+                "textarea"
+              ],
+              "topRow": 27,
+              "bottomRow": 31,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 37,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "up814yo0zx",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 57,
+              "widgetId": "aeak6g5noe",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "iconAlign": "left",
+              "defaultText": ""
             }
           ]
         },
         "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Page2",
+        "id": "Divider",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "62cbada439badb5604a04c28_62cbc92ac7d1aa5174b62972"

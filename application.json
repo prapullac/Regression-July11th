@@ -9,7 +9,15 @@
       "isDefault": false
     },
     {
-      "id": "Page2",
+      "id": "Divider",
+      "isDefault": false
+    },
+    {
+      "id": "Iframe",
+      "isDefault": false
+    },
+    {
+      "id": "Audio_Recorder",
       "isDefault": false
     }
   ],

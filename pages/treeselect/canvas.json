@@ -32,9 +32,6 @@
               "dynamicPropertyPathList": [
                 {
                   "key": "labelTextSize"
-                },
-                {
-                  "key": "borderRadius"
                 }
               ],
               "displayName": "TreeSelect",
@@ -43,10 +40,10 @@
               "searchTags": [
                 "dropdown"
               ],
-              "topRow": 8,
-              "bottomRow": 15,
+              "topRow": 2,
+              "bottomRow": 14,
               "parentRowSpace": 10,
-              "labelWidth": 5,
+              "labelWidth": "7",
               "type": "SINGLE_SELECT_TREE_WIDGET",
               "hideCard": false,
               "defaultOptionValue": "RED",
@@ -62,14 +59,14 @@
                   "key": "labelText"
                 }
               ],
-              "labelPosition": "Top",
+              "labelPosition": "Auto",
               "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\",\n    \"children\": [\n      {\n        \"label\": \"Dark Blue\",\n        \"value\": \"DARK BLUE\"\n      },\n      {\n        \"label\": \"Light Blue\",\n        \"value\": \"LIGHT BLUE\"\n      }\n    ]\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
               "labelStyle": "BOLD,ITALIC",
               "labelTextColor": "#9333ea",
               "placeholderText": "Select a color",
               "isDisabled": false,
               "key": "2atm5q3i62",
-              "labelTextSize": "S",
+              "labelTextSize": "1.875rem",
               "isRequired": false,
               "isDeprecated": false,
               "rightColumn": 29,
@@ -79,11 +76,11 @@
               "version": 1,
               "expandAll": true,
               "parentId": "0",
-              "labelAlignment": "left",
+              "labelAlignment": "right",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "1.4rem",
-              "allowClear": false
+              "borderRadius": "1.5rem",
+              "allowClear": true
             },
             {
               "widgetName": "Text1",
@@ -93,8 +90,8 @@
                 "typography",
                 "paragraph"
               ],
-              "topRow": 18,
-              "bottomRow": 22,
+              "topRow": 20,
+              "bottomRow": 24,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -992,6 +989,54 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "onOptionChange": "{{resetWidget(\"TreeSelect3\",false)}}",
               "allowClear": false
+            },
+            {
+              "widgetName": "Text3",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph"
+              ],
+              "topRow": 50,
+              "bottomRow": 54,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 36,
+              "dynamicBindingPathList": [
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "text"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "#FFC13D",
+              "text": "{{appsmith.store.color}}",
+              "key": "s2z0ph869u",
+              "isDeprecated": false,
+              "rightColumn": 52,
+              "textAlign": "LEFT",
+              "widgetId": "yzx855phdr",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "fontSize": "1rem"
             }
           ]
         },
