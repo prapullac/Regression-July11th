@@ -25,7 +25,11 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "filepicker",
+      "isDefault": false
+    },
+    {
+      "id": "rich_text_editor",
       "isDefault": false
     }
   ],
