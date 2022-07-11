@@ -1,0 +1,94 @@
+{
+  "unpublishedPage": {
+    "name": "Audio widget",
+    "slug": "audio-widget",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 5000,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 59,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "TreeSelect1",
+              "displayName": "TreeSelect",
+              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+              "labelText": "Label",
+              "searchTags": [
+                "dropdown"
+              ],
+              "topRow": 8,
+              "bottomRow": 12,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "SINGLE_SELECT_TREE_WIDGET",
+              "hideCard": false,
+              "defaultOptionValue": "",
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 9,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\",\n    \"children\": [\n      {\n        \"label\": \"Dark Blue\",\n        \"value\": \"DARK BLUE\"\n      },\n      {\n        \"label\": \"Light Blue\",\n        \"value\": \"LIGHT BLUE\"\n      }\n    ]\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
+              "placeholderText": "Select a color",
+              "isDisabled": false,
+              "key": "2atm5q3i62",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 29,
+              "widgetId": "cswlvjl80t",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": false,
+              "version": 1,
+              "expandAll": false,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "allowClear": false
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "validOnPageLoadActions": true,
+        "id": "Audio widget",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "62cbab4a4eb23b5ac7c64841_62cbab4a4eb23b5ac7c64843"
+}
