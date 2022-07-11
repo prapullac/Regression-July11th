@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5000,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -32,12 +32,12 @@
               "dynamicPropertyPathList": [],
               "displayName": "TreeSelect",
               "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-              "labelText": "Label",
+              "labelText": "{{Text1.text}}",
               "searchTags": [
                 "dropdown"
               ],
               "topRow": 8,
-              "bottomRow": 12,
+              "bottomRow": 15,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SINGLE_SELECT_TREE_WIDGET",
@@ -52,15 +52,17 @@
                   "key": "accentColor"
                 },
                 {
-                  "key": "borderRadius"
+                  "key": "labelText"
                 }
               ],
-              "labelPosition": "Left",
+              "labelPosition": "Top",
               "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\",\n    \"children\": [\n      {\n        \"label\": \"Dark Blue\",\n        \"value\": \"DARK BLUE\"\n      },\n      {\n        \"label\": \"Light Blue\",\n        \"value\": \"LIGHT BLUE\"\n      }\n    ]\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
+              "labelStyle": "BOLD,ITALIC",
+              "labelTextColor": "#9333ea",
               "placeholderText": "Select a color",
               "isDisabled": false,
               "key": "2atm5q3i62",
-              "labelTextSize": "0.875rem",
+              "labelTextSize": "",
               "isRequired": false,
               "isDeprecated": false,
               "rightColumn": 29,
@@ -73,8 +75,53 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "1.5rem",
+              "allowClear": false
+            },
+            {
+              "widgetName": "Text1",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph"
+              ],
+              "topRow": 18,
+              "bottomRow": 22,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 9,
+              "dynamicBindingPathList": [
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "#FFC13D",
+              "text": "Colours",
+              "key": "219p9roin3",
+              "isDeprecated": false,
+              "rightColumn": 25,
+              "textAlign": "LEFT",
+              "widgetId": "q1yuec6k8v",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "allowClear": true
+              "fontSize": "1rem"
             }
           ]
         },
