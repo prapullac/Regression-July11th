@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Audio widget",
-    "slug": "audio-widget",
+    "name": "treeselect",
+    "slug": "treeselect",
     "layouts": [
       {
         "viewMode": false,
@@ -131,7 +131,7 @@
         },
         "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Audio widget",
+        "id": "treeselect",
         "deleted": false,
         "policies": [],
         "userPermissions": []

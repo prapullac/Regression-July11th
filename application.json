@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Audio widget",
+      "id": "treeselect",
       "isDefault": true
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -10,6 +14,12 @@
   "unreadCommentThreads": 0,
   "color": "#F1DEFF",
   "icon": "flag",
+  "unpublishedAppLayout": {
+    "type": "TABLET_LARGE"
+  },
+  "publishedAppLayout": {
+    "type": "TABLET_LARGE"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
