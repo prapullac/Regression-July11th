@@ -29,6 +29,7 @@
             {
               "boxShadow": "none",
               "widgetName": "TreeSelect1",
+              "dynamicPropertyPathList": [],
               "displayName": "TreeSelect",
               "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
               "labelText": "Label",
@@ -57,7 +58,7 @@
               "labelPosition": "Left",
               "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\",\n    \"children\": [\n      {\n        \"label\": \"Dark Blue\",\n        \"value\": \"DARK BLUE\"\n      },\n      {\n        \"label\": \"Light Blue\",\n        \"value\": \"LIGHT BLUE\"\n      }\n    ]\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
               "placeholderText": "Select a color",
-              "isDisabled": false,
+              "isDisabled": true,
               "key": "2atm5q3i62",
               "labelTextSize": "0.875rem",
               "isRequired": false,
