@@ -27,9 +27,13 @@
           "leftColumn": 0,
           "children": [
             {
-              "boxShadow": "none",
+              "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
               "widgetName": "TreeSelect1",
-              "dynamicPropertyPathList": [],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "labelTextSize"
+                }
+              ],
               "displayName": "TreeSelect",
               "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
               "labelText": "{{Text1.text}}",
@@ -62,7 +66,7 @@
               "placeholderText": "Select a color",
               "isDisabled": false,
               "key": "2atm5q3i62",
-              "labelTextSize": "",
+              "labelTextSize": "S",
               "isRequired": false,
               "isDeprecated": false,
               "rightColumn": 29,
