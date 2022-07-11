@@ -15,10 +15,10 @@
   "color": "#F1DEFF",
   "icon": "flag",
   "unpublishedAppLayout": {
-    "type": "TABLET_LARGE"
+    "type": "MOBILE"
   },
   "publishedAppLayout": {
-    "type": "TABLET_LARGE"
+    "type": "MOBILE"
   },
   "evaluationVersion": 2,
   "applicationVersion": 2,

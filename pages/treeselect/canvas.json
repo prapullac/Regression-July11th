@@ -82,7 +82,7 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0.398rem",
+              "borderRadius": "1.4rem",
               "allowClear": false
             },
             {
