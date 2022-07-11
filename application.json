@@ -35,6 +35,10 @@
     {
       "id": "Statbox",
       "isDefault": false
+    },
+    {
+      "id": "Table",
+      "isDefault": false
     }
   ],
   "viewMode": false,
