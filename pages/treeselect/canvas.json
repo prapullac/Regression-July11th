@@ -32,6 +32,9 @@
               "dynamicPropertyPathList": [
                 {
                   "key": "labelTextSize"
+                },
+                {
+                  "key": "borderRadius"
                 }
               ],
               "displayName": "TreeSelect",
@@ -79,7 +82,7 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "1.5rem",
+              "borderRadius": "0.398rem",
               "allowClear": false
             },
             {
