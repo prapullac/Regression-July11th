@@ -19,6 +19,14 @@
     {
       "id": "Audio_Recorder",
       "isDefault": false
+    },
+    {
+      "id": "Switch",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
