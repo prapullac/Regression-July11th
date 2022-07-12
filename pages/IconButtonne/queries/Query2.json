@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "IconButton",
+    "pageId": "IconButtonne",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -43,7 +43,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "IconButton_Query2",
+  "id": "IconButtonne_Query2",
   "deleted": false,
   "gitSyncId": "62cbb0230afd8070b5c5fce9_62cbcb2cc7d1aa5174b6297e"
 }

@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "IconButton",
+    "pageId": "IconButtonne",
     "actionConfiguration": {
       "paginationType": "NONE",
       "encodeParamsToggle": true,
@@ -51,7 +51,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "IconButton_Query1",
+  "id": "IconButtonne_Query1",
   "deleted": false,
   "gitSyncId": "62cbb0230afd8070b5c5fce9_62cbcaccc7d1aa5174b6297c"
 }

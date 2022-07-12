@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "IconButton",
-    "slug": "iconbutton",
+    "name": "IconButtonne",
+    "slug": "iconbuttonne",
     "layouts": [
       {
         "viewMode": false,
@@ -805,7 +805,7 @@
         },
         "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "IconButton",
+        "id": "IconButtonne",
         "deleted": false,
         "policies": [],
         "userPermissions": []
