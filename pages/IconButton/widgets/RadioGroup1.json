@@ -1,50 +1,56 @@
 {
-    "boxShadow": "none",
-    "widgetName": "RadioGroup1",
-    "displayName": "Radio Group",
-    "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
-    "searchTags": ["choice"],
-    "topRow": 27,
-    "bottomRow": 35,
-    "parentRowSpace": 10,
-    "labelWidth": 5,
-    "type": "RADIO_GROUP_WIDGET",
-    "hideCard": false,
-    "defaultOptionValue": "P",
-    "animateLoading": true,
-    "parentColumnSpace": 12.25,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 4,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
-    "labelPosition": "Left",
-    "options": [
-        {
-            "label": "Plus",
-            "value": "P"
-        },
-        {
-            "label": "Other",
-            "value": "O"
-        }
-    ],
-    "isDisabled": false,
-    "key": "yhorztto7m",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 24,
-    "dynamicHeight": "FIXED",
-    "widgetId": "dj8jalin01",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "label": "Icon sign?",
-    "version": 1,
-    "parentId": "0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "maxDynamicHeight": 9000,
-    "isInline": true,
-    "alignment": "left",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 35,
+  "boxShadow": "none",
+  "defaultOptionValue": "P",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "yhorztto7m",
+  "label": "Icon sign?",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "options": [
+    {
+      "label": "Plus",
+      "value": "P"
+    },
+    {
+      "label": "Other",
+      "value": "O"
+    }
+  ],
+  "parentColumnSpace": 12.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 24,
+  "searchTags": [
+    "choice"
+  ],
+  "topRow": 27,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "dj8jalin01",
+  "widgetName": "RadioGroup1"
 }

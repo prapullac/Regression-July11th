@@ -1,49 +1,55 @@
 {
-    "boxShadow": "none",
-    "widgetName": "RadioGroup4",
-    "displayName": "Radio Group",
-    "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
-    "searchTags": ["choice"],
-    "topRow": 44,
-    "bottomRow": 52,
-    "parentRowSpace": 10,
-    "labelWidth": 5,
-    "type": "RADIO_GROUP_WIDGET",
-    "hideCard": false,
-    "defaultOptionValue": "Y",
-    "animateLoading": true,
-    "parentColumnSpace": 12.25,
-    "leftColumn": 3,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
-    "labelPosition": "Left",
-    "options": [
-        {
-            "label": "Yes",
-            "value": "Y"
-        },
-        {
-            "label": "No",
-            "value": "N"
-        }
-    ],
-    "isDisabled": false,
-    "key": "yhorztto7m",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 23,
-    "dynamicHeight": "FIXED",
-    "widgetId": "n1tkwgsahu",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "label": "Label",
-    "version": 1,
-    "parentId": "0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "maxDynamicHeight": 9000,
-    "isInline": true,
-    "alignment": "left",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 52,
+  "boxShadow": "none",
+  "defaultOptionValue": "Y",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "yhorztto7m",
+  "label": "Label",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "options": [
+    {
+      "label": "Yes",
+      "value": "Y"
+    },
+    {
+      "label": "No",
+      "value": "N"
+    }
+  ],
+  "parentColumnSpace": 12.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 23,
+  "searchTags": [
+    "choice"
+  ],
+  "topRow": 44,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "n1tkwgsahu",
+  "widgetName": "RadioGroup4"
 }

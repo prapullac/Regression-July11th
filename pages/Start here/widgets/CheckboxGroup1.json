@@ -1,68 +1,72 @@
 {
-    "widgetName": "CheckboxGroup1",
-    "displayName": "Checkbox Group",
-    "iconSVG": "/static/media/icon.ecb3847950c4515966ef642a32758afb.svg",
-    "labelText": "Label",
-    "topRow": 0,
-    "bottomRow": 21,
-    "parentRowSpace": 10,
-    "labelWidth": 5,
-    "type": "CHECKBOX_GROUP_WIDGET",
-    "hideCard": false,
-    "isSelectAll": false,
-    "animateLoading": true,
-    "parentColumnSpace": 12.5625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 14,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "labelPosition": "Left",
-    "options": [
-        {
-            "label": "Blue",
-            "value": "BLUE"
-        },
-        {
-            "label": "Green",
-            "value": "GREEN"
-        },
-        {
-            "label": "Red",
-            "value": "RED"
-        },
-        {
-            "label": "trust",
-            "value": "Trust"
-        },
-        {
-            "label": "lead",
-            "value": "Lead"
-        },
-        {
-            "label": "format",
-            "value": "Format"
-        }
-    ],
-    "isDisabled": false,
-    "key": "vq4k0ptlpz",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 26,
-    "defaultSelectedValues": "BLUE",
-    "dynamicHeight": "FIXED",
-    "widgetId": "aqpac9zl5m",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 2,
-    "parentId": "0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "isInline": true,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "defaultSelectedValues": "BLUE",
+  "displayName": "Checkbox Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ecb3847950c4515966ef642a32758afb.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isSelectAll": false,
+  "isVisible": true,
+  "key": "vq4k0ptlpz",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Label",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 14,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "options": [
+    {
+      "label": "Blue",
+      "value": "BLUE"
+    },
+    {
+      "label": "Green",
+      "value": "GREEN"
+    },
+    {
+      "label": "Red",
+      "value": "RED"
+    },
+    {
+      "label": "trust",
+      "value": "Trust"
+    },
+    {
+      "label": "lead",
+      "value": "Lead"
+    },
+    {
+      "label": "format",
+      "value": "Format"
+    }
+  ],
+  "parentColumnSpace": 12.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 26,
+  "topRow": 0,
+  "type": "CHECKBOX_GROUP_WIDGET",
+  "version": 2,
+  "widgetId": "aqpac9zl5m",
+  "widgetName": "CheckboxGroup1"
 }

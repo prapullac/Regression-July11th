@@ -1,37 +1,41 @@
 {
-    "boxShadow": "none",
-    "widgetName": "Audio1",
-    "displayName": "Audio",
-    "iconSVG": "/static/media/icon.cb54df7a09016b0af5e520895be927b9.svg",
-    "searchTags": [
-        "mp3",
-        "sound",
-        "wave",
-        "player"
-    ],
-    "topRow": 9,
-    "bottomRow": 13,
-    "parentRowSpace": 10,
-    "type": "AUDIO_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 17.9375,
-    "leftColumn": 26,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "accentColor"}
-    ],
-    "key": "7hr9z0zigd",
-    "isDeprecated": false,
-    "rightColumn": 54,
-    "widgetId": "roorqf9gno",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "url": "https://assets.appsmith.com/widgets/birds_chirping.mp3",
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "autoPlay": false
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoPlay": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "displayName": "Audio",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cb54df7a09016b0af5e520895be927b9.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7hr9z0zigd",
+  "leftColumn": 26,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 54,
+  "searchTags": [
+    "mp3",
+    "sound",
+    "wave",
+    "player"
+  ],
+  "topRow": 9,
+  "type": "AUDIO_WIDGET",
+  "url": "https://assets.appsmith.com/widgets/birds_chirping.mp3",
+  "version": 1,
+  "widgetId": "roorqf9gno",
+  "widgetName": "Audio1"
 }
